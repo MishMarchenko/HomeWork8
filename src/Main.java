@@ -30,6 +30,9 @@ public class Main {
         list.remove(9);
         list.remove(8);
         list.remove(7);
+//        list.remove(7); можно и так удалить последние три, он будет удалять 7й индекс пока он не станет последний и потом его тоже клоцнет)
+//        list.remove(7);
+//        list.remove(7);
         list.set(6, 10);
         System.out.println(list);
     }
